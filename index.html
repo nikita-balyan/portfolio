@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- SEO: edit title/description if your focus changes -->
-<title>Nikita | Computer Science Student & Aspiring SOC Analyst</title>
-<meta name="description" content="Nikita is a Computer Science student focused on SOC and blue-team fundamentals: network traffic analysis, threat detection and phishing analysis. View projects, skills and learning.">
+<title>Nikita | Entry-Level Cybersecurity Candidate | Computer Science Student</title>
+<meta name="description" content="Nikita is a Computer Science student open to entry-level cybersecurity roles and internships. Projects in phishing detection, network traffic analysis and application security triage.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Nikita | Aspiring SOC Analyst">
-<meta property="og:description" content="Cybersecurity portfolio: network traffic analysis, phishing detection and application security practice.">
+<meta property="og:title" content="Nikita | Entry-Level Cybersecurity Candidate">
+<meta property="og:description" content="Cybersecurity portfolio: CyberGuardian, network traffic analysis, application security triage and hackathons.">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
 <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -19,9 +19,10 @@
     <a class="brand" href="#top">Nikita</a>
     <button id="menu-btn" aria-expanded="false" aria-controls="menu">Menu</button>
     <ul id="menu">
-      <li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li>
-      <li><a href="#learning">Certifications</a></li><li><a href="#experience">Experience</a></li>
-      <li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li><li><a href="#hackathons">Hackathons</a></li>
+      <li><a href="#skills">Skills</a></li><li><a href="#learning">Certifications</a></li>
+      <li><a href="#experience">Experience</a></li><li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -29,28 +30,28 @@
 <main id="main">
 <!-- ===== HERO / MY NAME ===== -->
 <section class="hero" id="top">
-  <p class="muted">Computer Science student | Aspiring SOC Analyst</p>
+  <p class="muted">Computer Science student | Open to entry-level cybersecurity roles</p>
   <h1>Nikita</h1>
-  <p class="lead">I'm focused on SOC and blue-team fundamentals: analysing network traffic, detecting threats and investigating phishing. I'm looking for a cybersecurity internship where I can apply monitoring, detection and incident-response basics.</p>
+  <p class="lead">I'm looking for an entry-level cybersecurity position or internship, in SOC, blue team or security analysis. My practice so far is phishing detection, network traffic analysis and application security triage.</p>
   <p class="actions">
     <a class="btn primary" href="#projects">View projects</a>
     <!-- SOCIAL LINKS -->
     <a class="btn" href="https://github.com/nikita-balyan" target="_blank" rel="noopener noreferrer">GitHub</a>
     <a class="btn" href="https://linkedin.com/in/nikita-balyan" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-    <a class="btn" href="assets/Nikita-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume (add PDF link)</a>
+    <a class="btn" href="assets/Nikita-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
   </p>
   <dl class="glance">
-    <div><dt>Career focus</dt><dd>SOC / blue team</dd></div>
-    <div><dt>Strongest projects</dt><dd>Network Traffic Analyzer, CyberGuardian</dd></div>
-    <div><dt>Key tools</dt><dd>Python, Scapy, Linux CLI, Git</dd></div>
-    <div><dt>In progress</dt><dd>CompTIA Security+, Google Cybersecurity Certificate</dd></div>
+    <div><dt>Career focus</dt><dd>Entry-level cybersecurity (SOC, blue team, security analysis)</dd></div>
+    <div><dt>Strongest projects</dt><dd>CyberGuardian, Network Traffic Analyzer</dd></div>
+    <div><dt>Key tools</dt><dd>Python, Scapy, FastAPI, Docker, Linux CLI, Git</dd></div>
+    <div><dt>In progress</dt><dd>CompTIA Security+, Google Cybersecurity Certificate, TryHackMe SOC Level 1 path</dd></div>
   </dl>
 </section>
 
 <!-- ===== ABOUT ME ===== -->
 <section id="about">
   <h2>About me</h2>
-  <p>I'm a B.Sc. Computer Science student at the University of Delhi (graduating 2027). My cybersecurity learning is hands-on: I build small tools, practise in Linux virtual machines, work through TryHackMe, and join competitions to test myself on real findings.</p>
+  <p>I'm a B.Sc. Computer Science student at the University of Delhi (graduating 2027). My cybersecurity learning is hands-on: I build tools, practise in Linux virtual machines, work through <a href="https://tryhackme.com/p/nikitabalyan" target="_blank" rel="noopener noreferrer">TryHackMe</a> (top 20% on the platform), and join hackathons to test myself on real security problems.</p>
   <p>So far my experience comes from projects, labs and competitions rather than a security job. I also lead the college Entrepreneurship Cell, which has taught me planning, communication and teamwork.</p>
 </section>
 
@@ -58,7 +59,27 @@
 <!-- To add a project: copy one <article class="card"> block and edit it. See README. -->
 <section id="projects">
   <h2>Cybersecurity projects</h2>
-  <p class="muted">Select "Details" on a card to see the full story. Home labs and academic projects are labelled as such.</p>
+  <p class="muted">Select "Details" on a card for the full story. Home labs and academic projects are labelled as such.</p>
+
+  <article class="card">
+    <h3>CyberGuardian <span class="tag domain">Main project</span></h3>
+    <p class="tags"><span class="tag domain">Threat detection / phishing &amp; scam analysis</span><span class="tag">Academic project, deployed</span></p>
+    <p>A web app that analyses suspicious URLs, messages and QR codes and returns a risk score with a plain-language explanation. It targets scams aimed at college students, such as fake internships and payment requests.</p>
+    <p class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">PostgreSQL (Supabase)</span><span class="tag">Docker</span><span class="tag">XGBoost</span></p>
+    <p class="actions"><a class="btn" href="https://github.com/nikita-balyan/cyberguardian" target="_blank" rel="noopener noreferrer">View GitHub</a>
+    <a class="btn" href="https://cyberguardian.nikitabalyan311.workers.dev/" target="_blank" rel="noopener noreferrer">Live demo</a></p>
+    <details><summary>Details</summary>
+      <dl class="story">
+        <dt>Challenge</dt><dd>Scam links and messages are hard for students to judge. I wanted a tool that shows which signals made something look risky, such as URL reputation, SSL validity and urgency or authority language.</dd>
+        <dt>Environment</dt><dd>FastAPI backend, React + Vite + Tailwind frontend, Supabase PostgreSQL and Docker Compose. Built for my Software Engineering course, with a project report and API documentation.</dd>
+        <dt>What I built</dt><dd>URL, message and QR analysis. The risk score combines rule-based heuristics, an XGBoost classifier trained on 12 lexical URL features, and threat-intelligence lookups (Google Safe Browsing, URLhaus). A Gemini API layer writes the explanation.</dd>
+        <dt>What I tested</dt><dd>Rate limits, input validation (size and length limits) and 65 automated tests passing.</dd>
+        <dt>Security concepts</dt><dd>Phishing indicators, threat intelligence, risk scoring, rate limiting, input validation, audit logging.</dd>
+        <dt>Result</dt><dd>Completed, deployed and documented. I used AI-assisted coding tools to build it. My own part: I defined the scope (URL, message and QR analysis), chose the risk-scoring approach, set up the database and its access rules, and verified the behaviour with tests and a written report.</dd>
+        <dt>What I learned</dt><dd>How separate phishing signals combine into one risk score, and why input validation, rate limiting and database access rules matter for a public-facing security tool.</dd>
+      </dl>
+    </details>
+  </article>
 
   <article class="card">
     <h3>Network Traffic Analyzer</h3>
@@ -73,44 +94,9 @@
         <dt>What I built</dt><dd>A real-time capture tool that records source and destination IP, protocol and port, with TCP/UDP analysis across common ports (443, 53, 22). It writes timestamped CSV incident reports for log-style review.</dd>
         <dt>What I tested</dt><dd>I ran it on traffic generated by browsing with Mozilla Firefox inside the VM. Threshold detection flags any IP exceeding 15 packets, a simple simulation of brute-force and DDoS-style patterns.</dd>
         <dt>Security concepts</dt><dd>Packet analysis, protocol and port analysis, threshold-based anomaly detection, incident reporting.</dd>
-        <dt>Result</dt><dd>Working tool published on GitHub. [ADD: screenshot of sample output and a sample CSV report]</dd>
-        <dt>What I learned</dt><dd>[ADD: your own reflection, e.g. what surprised you in the traffic, limits of a fixed threshold]</dd>
-      </dl>
-    </details>
-  </article>
-
-  <article class="card">
-    <h3>CyberGuardian</h3>
-    <p class="tags"><span class="tag domain">Threat detection / phishing &amp; scam analysis</span><span class="tag">Academic project, deployed</span></p>
-    <p>A web app that analyses suspicious URLs, messages and QR codes and returns a risk score with a plain-language explanation. It targets scams aimed at college students, such as fake internships and payment requests.</p>
-    <p class="tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">PostgreSQL (Supabase)</span><span class="tag">Docker</span><span class="tag">XGBoost</span></p>
-    <p class="actions"><a class="btn" href="https://github.com/nikita-balyan/cyberguardian" target="_blank" rel="noopener noreferrer">View GitHub</a>
-    <a class="btn" href="https://cyberguardian.nikitabalyan311.workers.dev/" target="_blank" rel="noopener noreferrer">Live demo (add link)</a></p>
-    <details><summary>Details</summary>
-      <dl class="story">
-        <dt>Challenge</dt><dd>Scam links and messages are hard for students to judge. I wanted a tool that shows which signals made something look risky, such as URL reputation, SSL validity and urgency or authority language.</dd>
-        <dt>Environment</dt><dd>FastAPI backend, React + Vite + Tailwind frontend, Supabase PostgreSQL, Docker Compose. Built for my Software Engineering course, with a project report and API documentation.</dd>
-        <dt>What I built</dt><dd>URL, message and QR analysis. The risk score combines rule-based heuristics, an XGBoost classifier trained on 12 lexical URL features, and threat-intelligence lookups (Google Safe Browsing, URLhaus). A Gemini API layer writes the explanation.</dd>
-        <dt>What I tested</dt><dd>Rate limits, input validation (size and length limits) and 65 automated tests passing.</dd>
-        <dt>Security concepts</dt><dd>Phishing indicators, threat intelligence, risk scoring, rate limiting, input validation, audit logging.</dd>
-        <dt>Result</dt><dd>Completed, deployed and documented. Developed with AI-assisted coding tools. [ADD: what you designed and decided yourself]</dd>
-        <dt>What I learned</dt><dd>[ADD: your own reflection]</dd>
-      </dl>
-    </details>
-  </article>
-
-  <article class="card">
-    <h3>Cyber Kushti Hackathon, Level 1</h3>
-    <p class="tags"><span class="tag domain">Application security / vulnerability validation</span><span class="tag">Competition</span></p>
-    <p>Team competition (NIELIT, ISAC Internships and NSD, part of NCCDFI 2026) on reviewing application security findings and separating true from false positives.</p>
-    <p class="tags"><span class="tag">Source code review</span><span class="tag">AI-assisted analysis</span><span class="tag">IDOR</span><span class="tag">Broken access control</span></p>
-    <details><summary>Details</summary>
-      <dl class="story">
-        <dt>Challenge</dt><dd>Decide which automated findings were real vulnerabilities, using the available evidence.</dd>
-        <dt>What I did</dt><dd>In a team of three, I reviewed findings and source code and used AI-assisted analysis to help classify them.</dd>
-        <dt>Security concepts</dt><dd>IDOR, broken access control, security filter misconfiguration, vulnerability validation.</dd>
-        <dt>Result</dt><dd>As communicated by the organisers, participation enables empanelment in the National Security Database (NSD) as a Security Researcher. [ADD: certificate or email link]</dd>
-        <dt>What I learned</dt><dd>Automated findings and AI conclusions need to be verified against evidence before they are trusted.</dd>
+        <dt>Result</dt><dd>A working tool, published on GitHub, that produces timestamped CSV incident reports.</dd>
+        <!-- OPTIONAL: add a screenshot here: <img src="assets/analyzer-output.png" alt="Sample analyzer output"> -->
+        <dt>What I learned</dt><dd>How a simple fixed threshold works as a first-pass detector, and where it falls short: busy but normal traffic can trigger it, and slow attacks can stay under it.</dd>
       </dl>
     </details>
   </article>
@@ -121,25 +107,79 @@
     <p>Practised Ubuntu VM file management, permissions, sudo and process monitoring, and studied LAN concepts, DNS resolution and how a web request works end to end.</p>
   </article>
 
-  <h3 class="sub">Other technical project</h3>
+  <h3 class="sub">Additional projects</h3>
   <article class="card compact">
     <h3>Safe Space Monitor</h3>
-    <p class="tags"><span class="tag domain">Machine learning / web app (not security)</span></p>
+    <p class="tags"><span class="tag domain">Machine learning / web app</span><span class="tag">Internship project, Aug to Sep 2025</span></p>
     <p>A Flask app with a child view and a caregiver view that predicts sensory-overload risk from noise, light and motion readings. Sensor data is simulated. A RandomForest model reached 93.3% accuracy on test data.</p>
     <p class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">scikit-learn</span><span class="tag">SQLite</span><span class="tag">Chart.js</span></p>
     <p class="actions"><a class="btn" href="https://github.com/nikita-balyan/safe-space-monitor" target="_blank" rel="noopener noreferrer">View GitHub</a></p>
   </article>
 </section>
 
+<!-- ===== HACKATHONS & COMPETITIONS ===== -->
+<section id="hackathons">
+  <h2>Hackathons &amp; competitions</h2>
+  <p class="muted">Hands-on assessments and applied projects, described as exactly what they were.</p>
+
+  <article class="card">
+    <h3>Cyber Kushti: Cyber Security &amp; AI Hackathon, Level 1</h3>
+    <p class="tags"><span class="tag domain">Security alert triage</span><span class="tag">2026</span><span class="tag">Team of 3</span></p>
+    <dl class="story">
+      <dt>Organisers</dt><dd>NIELIT, ISAC and NSD, as part of NCCDFI 2026.</dd>
+      <dt>My role</dt><dd>Team member, working with two teammates.</dd>
+      <dt>Approach</dt><dd>A hands-on assessment, not a search for real-world vulnerabilities. We analysed security alerts on the AltoroJ web application dashboard and classified each as a true or false positive using the evidence available. We used AI as an assistance tool and checked its conclusions against the evidence.</dd>
+      <dt>Outcome</dt><dd>About 80% of our answers were correct.</dd>
+      <dt>Recognition</dt><dd>Certificate of Participation, and empanelment in the National Security Database (NSD) as a Security Researcher. <a href="assets/Cyber-Kushti-Certificate.pdf" target="_blank" rel="noopener noreferrer">View certificate</a></dd>
+      <dt>Skills</dt><dd class="tags"><span class="tag">Alert triage</span><span class="tag">True/false-positive classification</span><span class="tag">IDOR</span><span class="tag">Broken access control</span><span class="tag">AI-assisted investigation</span><span class="tag">Teamwork</span></dd>
+    </dl>
+  </article>
+
+  <article class="card compact">
+    <h3>Smart India Hackathon (SIH) 2025: Nabha Tele-Health Connect</h3>
+    <p class="tags"><span class="tag domain">HealthTech / solution design</span><span class="tag">2025</span><span class="tag">Team Tech Nodes</span><span class="tag">Idea submission</span></p>
+    <dl class="story">
+      <dt>Problem statement</dt><dd>SIH problem statement 25018, Telemedicine Access for Rural Healthcare in Nabha. Rural patients face poor connectivity, long travel distances, limited digital literacy and trouble finding locally available medicines.</dd>
+      <dt>Proposed solution</dt><dd>A multilingual, offline-first telemedicine platform. The proposed features were adaptive teleconsultations (video, audio or chat, depending on the network), encrypted offline health records that sync when connectivity returns, a Hindi and Punjabi voice symptom checker, pharmacy stock SMS alerts, and an accessible voice and icon interface.</dd>
+      <dt>Proposed stack</dt><dd>React Native (Expo), PouchDB/SQLite, CouchDB/Firebase, Jitsi/WebRTC, MSG91/Twilio, Vosk/Coqui, and Node.js with AES-256 encryption.</dd>
+      <dt>My role</dt><dd>Team member. I researched the problem and the solution design, and started building a prototype.</dd>
+      <dt>Outcome</dt><dd>We submitted the idea and were not selected. The prototype was not completed, so the features above are proposals, not tested features.</dd>
+      <dt>Skills</dt><dd class="tags"><span class="tag">Solution design</span><span class="tag">Offline-first architecture</span><span class="tag">Secure health-data handling (design)</span><span class="tag">Multilingual design</span><span class="tag">Teamwork</span></dd>
+    </dl>
+  </article>
+
+  <article class="card compact">
+    <h3>Google GenAI Exchange Hackathon: AI Marketplace Assistant for Local Artisans</h3>
+    <p class="tags"><span class="tag domain">Generative AI / social impact</span><span class="tag">2025</span></p>
+    <dl class="story">
+      <dt>Problem</dt><dd>Language barriers and the difficulty of writing strong product listings can limit the online reach of local artisans.</dd>
+      <dt>What we built</dt><dd>A Streamlit app that generates multilingual product descriptions, to make listings more accessible and support regional languages. The intended users are local artisans.</dd>
+      <dt>Outcome</dt><dd>Participated and developed the application concept. <!-- ADD any confirmed award, ranking or deployment details --></dd>
+      <dt>Skills</dt><dd class="tags"><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Prompt design</span><span class="tag">Generative AI apps</span></dd>
+    </dl>
+  </article>
+
+  <article class="card compact">
+    <h3>Pixel Whisperer: Prompt Designing Competition</h3>
+    <p class="tags"><span class="tag domain">Prompt engineering</span><span class="tag">AI Awareness Pre-Summit</span><span class="tag">Individual, college level</span></p>
+    <dl class="story">
+      <dt>Organiser</dt><dd>Department of Computer Science (Cybermeet Society), Indraprastha College for Women, University of Delhi.</dd><dt>My role</dt><dd>Individual participant in a college-level competition.</dd>
+      <dt>Focus</dt><dd>Observation, clarity and effective AI prompting under time constraints.</dd>
+      <dt>Recognition</dt><dd>2nd position.</dd>
+    </dl>
+  </article>
+</section>
+
 <!-- ===== SKILLS (tags only, no ratings). Edit tags freely. ===== -->
 <section id="skills">
   <h2>Skills</h2>
-  <p class="muted">Each skill listed is backed by a project, lab or course on this page.</p>
+  <p class="muted">Each skill listed is backed by a project, lab, competition or course on this page.</p>
   <div class="grid">
-    <div><h3>Security &amp; monitoring</h3><ul class="chips"><li>SOC fundamentals</li><li>Threat detection</li><li>Phishing analysis</li><li>Vulnerability triage</li><li>OWASP Top 10</li><li>Risk assessment</li><li>Access control</li><li>Authentication basics</li></ul></div>
+    <div><h3>Security &amp; monitoring</h3><ul class="chips"><li>SOC fundamentals</li><li>Threat detection</li><li>Phishing analysis</li><li>Alert triage</li><li>Vulnerability triage</li><li>OWASP Top 10</li><li>Risk assessment</li><li>Access control</li><li>Authentication basics</li></ul></div>
     <div><h3>Networking</h3><ul class="chips"><li>TCP/IP</li><li>DNS</li><li>HTTP/HTTPS</li><li>OSI model</li><li>Port &amp; protocol analysis</li><li>Packet analysis</li></ul></div>
     <div><h3>Tools &amp; platforms</h3><ul class="chips"><li>Scapy</li><li>Linux CLI (Ubuntu)</li><li>VirtualBox</li><li>Git &amp; GitHub</li><li>TryHackMe</li><li>Docker</li></ul></div>
-    <div><h3>Programming</h3><ul class="chips"><li>Python</li><li>C++</li><li>HTML</li><li>FastAPI</li><li>Flask</li><li>React (via CyberGuardian)</li><li>PostgreSQL / SQLite</li></ul></div>
+    <div><h3>Programming &amp; frameworks</h3><ul class="chips"><li>Python</li><li>C++</li><li>HTML</li><li>FastAPI</li><li>Flask</li><li>Streamlit</li><li>React (via CyberGuardian)</li><li>PostgreSQL / SQLite</li><li>scikit-learn / XGBoost</li></ul></div>
+    <div><h3>Generative AI</h3><ul class="chips"><li>Prompt design</li><li>Gemini API</li><li>Vertex AI</li><li>Multimodal RAG</li></ul></div>
     <div><h3>Working skills</h3><ul class="chips"><li>Technical documentation</li><li>Communication</li><li>Team coordination</li><li>Problem solving</li></ul></div>
   </div>
 </section>
@@ -150,15 +190,16 @@
   <div class="grid">
     <div><h3>In progress</h3><ul class="plain">
       <li>CompTIA Security+ (not yet taken)</li>
-      <li>Google Cybersecurity Professional Certificate (Coursera): 4 of 9 courses completed</li></ul></div>
-    <div><h3>Completed learning</h3><ul class="plain">
+      <li>Google Cybersecurity Professional Certificate (Coursera): 4 of 9 courses completed</li>
+      <li>TryHackMe SOC Level 1 path (top 20% on the platform). <a href="https://tryhackme.com/p/nikitabalyan" target="_blank" rel="noopener noreferrer">View my TryHackMe profile</a></li></ul></div>
+    <div><h3>Completed</h3><ul class="plain">
+      <li>Google Cloud GenAI Exchange Program, Phase 1: 5 skill badges (Prompt Design with Vertex AI, Gemini API, Streamlit for GenAI, Multimodal RAG with Gemini, Imagen)</li>
       <li>TryHackMe Pre-Security Path (2026)</li>
       <li>Deloitte Cyber Job Simulation (2025), a virtual simulation, not work experience</li>
-      <li>Cybersecurity notes on GitHub and <a href="https://medium.com/@nikitabalyan" target="_blank" rel="noopener noreferrer">Medium</a>: Linux, networking, DNS and TCP/IP (Jan 2026 to present)</li></ul></div>
-    <div><h3>Events</h3><ul class="plain">
-      <li>Cyber Kushti Hackathon, Level 1 (2026)</li>
-      <li>Hack Defence Summit 2026, Delhi (attended)</li>
-      <!-- [ADD other hackathons or events here] --></ul></div>
+      <li>Learn2Code: Intro to Coding and Intro to Python</li></ul></div>
+    <div><h3>Writing &amp; events</h3><ul class="plain">
+      <li>Cybersecurity notes on GitHub and <a href="https://medium.com/@nikitabalyan" target="_blank" rel="noopener noreferrer">Medium</a>: Linux, networking, DNS and TCP/IP (Jan 2026 to present)</li>
+      <li>Hack Defence Summit 2026, Delhi (attended)</li></ul></div>
   </div>
 </section>
 
@@ -168,7 +209,7 @@
   <p class="muted">No professional cybersecurity role yet. These roles show transferable skills.</p>
   <ul class="timeline">
     <li><h3>General Secretary, Entrepreneurship Cell (IPCW)</h3><p class="muted">2024 to present</p><p>Lead planning, communication and delivery of college-level events and student teams.</p></li>
-    <li><h3>Intern, AI-Assisted Sensory Regulation Project</h3><p class="muted">Aug to Sep 2025</p><p>Analysed multi-modal datasets, did feature engineering for a predictive model, and applied detail-oriented data review and privacy considerations in a research setting.</p></li>
+    <li><h3>Intern, AI-Assisted Sensory Regulation Project</h3><p class="muted">Aug to Sep 2025</p><p>Analysed multi-modal datasets, did feature engineering for a predictive model, and applied detail-oriented data review and privacy considerations in a research setting. See Safe Space Monitor under Additional projects.</p></li>
     <li><h3>Project Management Intern, Pehchaan (The Street School, NGO)</h3><p class="muted">Feb to May 2025, remote</p><p>Coordinated with 10+ partner organisations on educational outreach programmes and handled scheduling and documentation.</p></li>
   </ul>
 </section>
@@ -184,12 +225,13 @@
 <!-- ===== CONTACT DETAILS (phone number intentionally not published) ===== -->
 <section id="contact">
   <h2>Contact</h2>
-  <p>Open to cybersecurity and SOC internships. The best way to reach me is email or LinkedIn.</p>
+  <p>Open to entry-level cybersecurity positions and internships. The best way to reach me is email or LinkedIn.</p>
   <p class="actions">
     <a class="btn primary" href="mailto:nikitabalyan311@gmail.com">nikitabalyan311@gmail.com</a>
     <a class="btn" href="https://linkedin.com/in/nikita-balyan" target="_blank" rel="noopener noreferrer">LinkedIn</a>
     <a class="btn" href="https://github.com/nikita-balyan" target="_blank" rel="noopener noreferrer">GitHub</a>
     <a class="btn" href="https://medium.com/@nikitabalyan" target="_blank" rel="noopener noreferrer">Medium</a>
+    <a class="btn" href="https://tryhackme.com/p/nikitabalyan" target="_blank" rel="noopener noreferrer">TryHackMe</a>
   </p>
 </section>
 </main>
